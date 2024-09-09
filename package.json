@@ -1,10 +1,6 @@
 {
-  "name": "placheolder",
+  "name": "placeholder",
   "version": "1.0.0",
-  "description": "The downloadable NodeJS project template",
-  "keywords": [],
-  "license": "ISC",
-  "author": "",
   "scripts": {
     "build": "rm -rf dist && tsx build.mts",
     "lint": "eslint . --max-warnings 0 --fix",

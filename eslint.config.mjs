@@ -42,6 +42,12 @@ export default [
       '@typescript-eslint/no-empty-interface': 'off',
       '@typescript-eslint/ban-types': 'off',
       '@typescript-eslint/no-unused-vars': 'off',
+      'no-restricted-imports': [
+        'error',
+        {
+          patterns: ['.*'],
+        },
+      ],
     },
   },
 ];
